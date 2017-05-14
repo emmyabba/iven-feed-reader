@@ -26,7 +26,7 @@ public class saveUtils {
 
         SharedPreferences preferenceColor = context.getSharedPreferences("feeds", Context.MODE_PRIVATE);
 
-        return preferenceColor.getString("selectedFeed", "http://feeds.feedburner.com/androidcentral");
+        return preferenceColor.getString("selectedFeed", "http://feeds.feedburner.com/FutminnaInformationUnit");
     }
 
     //save last date
